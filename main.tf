@@ -14,12 +14,14 @@ terraform {
   backend "remote" {
     organization = "saberi-home"
 
-
     workspaces {
       name = "github-actions"
     }
   }
 }
+
+variable "AWS_SECRET_ACCESS_KEY" {}
+variable "AWS_ACCESS_KEY_ID" {}
 
 
 provider "aws" {
