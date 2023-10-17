@@ -16,7 +16,7 @@ terraform {
 
 
     workspaces {
-      name = "saberi-home"
+      name = "github-actions"
     }
   }
 }
