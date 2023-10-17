@@ -14,7 +14,6 @@ terraform {
   backend "remote" {
     organization = "saberi-home"
 
-
     workspaces {
       name = "github-actions"
     }
